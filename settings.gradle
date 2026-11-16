@@ -1,0 +1,18 @@
+pluginManagement {
+存储库{
+谷歌()
+mavenCentral()
+gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+仓库模式。设置(仓库模式.失败项目回购)
+存储库{
+谷歌()
+mavenCentral()
+    }
+}
+
+根项目.名字="构建实验室"
+包括(":应用程序")
